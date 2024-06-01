@@ -1,8 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+p {
+    margin-left: 43%;
+    margin-right: 40%;
+}
+
 .container {
     display: flex;
     justify-content: center;
+    height: 100%;
+    align-items: center;
 }
 
-button {
-    margin-right: auto;
+.btn {
+    display: flex;
+    justify-content: center;
 }
